@@ -4,7 +4,9 @@
 
 # for experimenitng locally, set the following ip table rules
 # iptables - I INPUT - j NFQUEUE - -queue - num 0
-# iptables - I OUTPUT - j NFQUEUE - -queue - num 0
+# # iptables - I OUTPUT - j NFQUEUE - -queue - num 0
+# after finishing spoofing 
+# iptables --flush
 
 
 import netfilterqueue
